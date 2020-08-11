@@ -1,7 +1,9 @@
-from django.urls import path
+from django.urls import path, include
 from . import views
+
+app_name = 'food_list'
 urlpatterns = [
   path('', views.index, name='index'),
-  path('<int:title_text_id>/search/', views.search, name='search'),
-  path('<int:title_text_id>/results/', views.results, name='results'),
+  path('search/', views.search, name='search'),
+  path('results/', views.results, name='results'),
 ]

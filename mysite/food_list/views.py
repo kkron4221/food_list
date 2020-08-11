@@ -5,11 +5,10 @@ from .models import Title
 
 
 def index(request):
-
   return render(request, 'food_list/index.html')
   
 def search(request):
-  return HttpResponse("Now searching")
+  return render(request, 'food_list/result.html')
 
-def results(request, title_text_id):
-  return HttpResponse("Result" + title_text_id + "food")
+def results(request):
+  return render(request, 'food_list/result.html')
