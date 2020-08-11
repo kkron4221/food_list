@@ -1,0 +1,8 @@
+<h1>食事リスト</h1>
+
+{% if error_message %}<p><striong>{{
+  error_message }}</striong></p>{% endif %}
+
+<form action="{% url 'food_list:vote' question.id %}" method="post">
+
+</form>
