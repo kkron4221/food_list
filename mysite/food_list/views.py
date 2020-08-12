@@ -1,18 +1,12 @@
-from django.http import HttpResponse, HttpResponseRedirect
-from django.template import loader
+from django.http import HttpResponse
 from django.shortcuts import render
-from django.http import Http404
-from django.urls import reverse
-
-
+from django.template import loader
 
 def index(request):
-  return render(request, 'food_list/index.html')
+  num = list(range(10))
+  context = {'num_list' : num}
+  return HttpResponse(render(request, 'food_list/index.html', context))
   
-# search material from api
-def search(request):
-  return HttpResponse("hogehoge")
-
 def results(request):
   params = {
     'food_name' : request.POST.get('search'),
