@@ -2,6 +2,8 @@ from django.http import HttpResponse
 from django.shortcuts import render
 from django.template import loader
 from selenium import webdriver
+from selenium.webdriver.firefox.options import Options
+from selenium.webdriver.common.keys import Keys
 import time
 
 def index(request):
@@ -11,24 +13,29 @@ def results(request):
   food_name = request.POST.get('search1')
   url = "https://www.kurashiru.com/"
 
-  driver = webdriver.Firefox()
+  options = Options()
+  options.add_argument("-headless")
+
+  driver = webdriver.Firefox(firefox_options=options)
   driver.get(url)
-  search_box = driver.find_element_by_id("search_box")
-  search_box.send_keys(Keys.ENTER, food_name)
+  time.sleep(2)
+  search_box = driver.find_element_by_id("query")
+  search_box.send_keys(food_name)
+  search_box.send_keys(Keys.ENTER)
   time.sleep(2)
 
-  # item = driver.find_element_by_class_name("dly-video-item-root[1]")
-  # item.click()
-  # time.sleep(2)
+  items = driver.find_elements_by_class_name("dly-video-item-root")
+  items[1].click()
+  time.sleep(2)
 
-  # materials = driver.find_element_by_class_name("ingredient-list-item")
+  materials = driver.find_elements_by_class_name("ingredient-list-item")
+  material_list = []
+  for i in range(len(materials)):
+    material_list.append(materials[i].text)
 
-  # return HttpResponse(materials)
+  params = {
+    'food_name' : food_name,
+    'materials' : material_list,
+  }
 
-  return HttpResponse(food_name)
-
-  # params = {
-  #   'food_name' : food_name,
-  #   'material' : '卵',
-  # }
-  # return render(request, 'food_list/result.html', params)
+  return render(request, 'food_list/result.html', params)
