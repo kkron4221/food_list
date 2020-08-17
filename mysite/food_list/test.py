@@ -1,6 +1,6 @@
 from django.test import TestCase
 
-class Tests()：
+class ResultTest():
   def string_test_correct(self):
     input_date = "ハンバーグ"
     self.assertIs(, False)    
