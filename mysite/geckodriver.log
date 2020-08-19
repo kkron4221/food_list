@@ -1179,3 +1179,336 @@ JavaScript warning: https://pagead2.googlesyndication.com/bg/521PoRGnh7h8BVOMyCp
 Exiting due to channel error.
 Exiting due to channel error.
 Exiting due to channel error.
+1597817115151	geckodriver	INFO	Listening on 127.0.0.1:51288
+1597817118179	mozrunner::runner	INFO	Running command: "C:\\Users\\ricky\\AppData\\Local\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\ricky\\AppData\\Local\\Temp\\rust_mozprofilecH0cwF"
+*** You are running in headless mode.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1597817119487	Marionette	INFO	Listening on port 51297
+1597817119691	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://gum.criteo.com/sync?c=46&r=2&j=handleData, line 1: SecurityError: The operation is insecure.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/521PoRGnh7h8BVOMyCpHrhejufpyvF5vdQBdJpCoVT0.js line 1 > Function line 3 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/521PoRGnh7h8BVOMyCpHrhejufpyvF5vdQBdJpCoVT0.js line 1 > Function line 3 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript error: https://assets.kurashiru.com/production/packs/commons-ef88d55ea2decd2b7c56.js?from_ssr=true, line 84: RequestAbortedError: Request aborted
+JavaScript warning: https://pagead2.googlesyndication.com/bg/521PoRGnh7h8BVOMyCpHrhejufpyvF5vdQBdJpCoVT0.js line 1 > Function line 3 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/521PoRGnh7h8BVOMyCpHrhejufpyvF5vdQBdJpCoVT0.js line 1 > Function line 3 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+Exiting due to channel error.
+Listening on 127.0.0.1:51556
+1597817236476	mozrunner::runner	INFO	Running command: "C:\\Users\\ricky\\AppData\\Local\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\ricky\\AppData\\Local\\Temp\\rust_mozprofileYhfv3Y"
+*** You are running in headless mode.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1597817237698	Marionette	INFO	Listening on port 51565
+1597817237986	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://gum.criteo.com/sync?c=46&r=2&j=handleData, line 1: SecurityError: The operation is insecure.
+JavaScript error: https://gum.criteo.com/sync?c=46&r=2&j=handleData, line 1: SecurityError: The operation is insecure.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/521PoRGnh7h8BVOMyCpHrhejufpyvF5vdQBdJpCoVT0.js line 1 > Function line 3 > eval line 1 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/521PoRGnh7h8BVOMyCpHrhejufpyvF5vdQBdJpCoVT0.js line 1 > Function line 3 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript error: https://assets.kurashiru.com/production/packs/commons-ef88d55ea2decd2b7c56.js?from_ssr=true, line 84: RequestAbortedError: Request aborted
+JavaScript warning: https://pagead2.googlesyndication.com/bg/521PoRGnh7h8BVOMyCpHrhejufpyvF5vdQBdJpCoVT0.js line 1 > Function line 3 > eval line 1 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/521PoRGnh7h8BVOMyCpHrhejufpyvF5vdQBdJpCoVT0.js line 1 > Function line 3 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript error: https://cdn.ampproject.org/rtv/012008102328000/v0/amp-analytics-0.1.js, line 115: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://cdn.ampproject.org/rtv/012008102328000/v0/amp-analytics-0.1.js, line 115: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://gum.criteo.com/sync?c=46&r=2&j=handleData, line 1: SecurityError: The operation is insecure.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/521PoRGnh7h8BVOMyCpHrhejufpyvF5vdQBdJpCoVT0.js line 1 > Function line 3 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/521PoRGnh7h8BVOMyCpHrhejufpyvF5vdQBdJpCoVT0.js line 1 > Function line 3 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1597817260696	geckodriver	INFO	Listening on 127.0.0.1:51840
+1597817263699	mozrunner::runner	INFO	Running command: "C:\\Users\\ricky\\AppData\\Local\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\ricky\\AppData\\Local\\Temp\\rust_mozprofilevjh6Hr"
+*** You are running in headless mode.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1597817264887	Marionette	INFO	Listening on port 51848
+1597817265210	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://gum.criteo.com/sync?c=46&r=2&j=handleData, line 1: SecurityError: The operation is insecure.
+JavaScript error: https://gum.criteo.com/sync?c=46&r=2&j=handleData, line 1: SecurityError: The operation is insecure.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/521PoRGnh7h8BVOMyCpHrhejufpyvF5vdQBdJpCoVT0.js line 1 > Function line 3 > eval line 1 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/521PoRGnh7h8BVOMyCpHrhejufpyvF5vdQBdJpCoVT0.js line 1 > Function line 3 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+NFO	Running command: "C:\\Users\\ricky\\AppData\\Local\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\ricky\\AppData\\Local\\Temp\\rust_mozprofileSM1DcJ"
+*** You are running in headless mode.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1597817442773	Marionette	INFO	Listening on port 52113
+1597817443142	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://pagead2.googlesyndication.com/bg/521PoRGnh7h8BVOMyCpHrhejufpyvF5vdQBdJpCoVT0.js line 1 > Function line 3 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/521PoRGnh7h8BVOMyCpHrhejufpyvF5vdQBdJpCoVT0.js line 1 > Function line 3 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript error: https://assets.kurashiru.com/production/packs/commons-ef88d55ea2decd2b7c56.js?from_ssr=true, line 84: RequestAbortedError: Request aborted
+JavaScript warning: https://pagead2.googlesyndication.com/bg/521PoRGnh7h8BVOMyCpHrhejufpyvF5vdQBdJpCoVT0.js line 1 > Function line 3 > eval line 1 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/521PoRGnh7h8BVOMyCpHrhejufpyvF5vdQBdJpCoVT0.js line 1 > Function line 3 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+NFO	Running command: "C:\\Users\\ricky\\AppData\\Local\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\ricky\\AppData\\Local\\Temp\\rust_mozprofileI1R0Pp"
+*** You are running in headless mode.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1597817556372	Marionette	INFO	Listening on port 52433
+1597817556708	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://pagead2.googlesyndication.com/bg/521PoRGnh7h8BVOMyCpHrhejufpyvF5vdQBdJpCoVT0.js line 1 > Function line 3 > eval line 1 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/521PoRGnh7h8BVOMyCpHrhejufpyvF5vdQBdJpCoVT0.js line 1 > Function line 3 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript error: https://assets.kurashiru.com/production/packs/commons-ef88d55ea2decd2b7c56.js?from_ssr=true, line 84: RequestAbortedError: Request aborted
+JavaScript warning: https://pagead2.googlesyndication.com/bg/521PoRGnh7h8BVOMyCpHrhejufpyvF5vdQBdJpCoVT0.js line 1 > Function line 3 > eval line 1 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/521PoRGnh7h8BVOMyCpHrhejufpyvF5vdQBdJpCoVT0.js line 1 > Function line 3 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+Exiting due to channel error.
+Listening on 127.0.0.1:52640
+1597817627135	mozrunner::runner	INFO	Running command: "C:\\Users\\ricky\\AppData\\Local\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\ricky\\AppData\\Local\\Temp\\rust_mozprofileGX4Fb9"
+*** You are running in headless mode.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1597817628330	Marionette	INFO	Listening on port 52650
+1597817628653	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://pagead2.googlesyndication.com/bg/521PoRGnh7h8BVOMyCpHrhejufpyvF5vdQBdJpCoVT0.js line 1 > Function line 3 > eval line 1 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/521PoRGnh7h8BVOMyCpHrhejufpyvF5vdQBdJpCoVT0.js line 1 > Function line 3 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript error: https://dd90191a6836f60cfe7f1ddf6061ff58.safeframe.googlesyndication.com/safeframe/1-0-37/html/container.html, line 8: ReferenceError: osdlfm is not defined
+JavaScript error: https://assets.kurashiru.com/production/packs/commons-ef88d55ea2decd2b7c56.js?from_ssr=true, line 84: RequestAbortedError: Request aborted
+JavaScript error: https://cdn.ampproject.org/rtv/012008102328000/v0/amp-analytics-0.1.js, line 115: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://cdn.ampproject.org/rtv/012008102328000/v0/amp-analytics-0.1.js, line 115: NS_ERROR_NOT_INITIALIZED: 
+JavaScript warning: https://pagead2.googlesyndication.com/bg/521PoRGnh7h8BVOMyCpHrhejufpyvF5vdQBdJpCoVT0.js line 1 > Function line 3 > eval line 1 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/521PoRGnh7h8BVOMyCpHrhejufpyvF5vdQBdJpCoVT0.js line 1 > Function line 3 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+NFO	Running command: "C:\\Users\\ricky\\AppData\\Local\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\ricky\\AppData\\Local\\Temp\\rust_mozprofileJEryo5"
+*** You are running in headless mode.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1597817981602	Marionette	INFO	Listening on port 53040
+1597817981899	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://gum.criteo.com/sync?c=46&r=2&j=handleData, line 1: SecurityError: The operation is insecure.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/521PoRGnh7h8BVOMyCpHrhejufpyvF5vdQBdJpCoVT0.js line 1 > Function line 3 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/521PoRGnh7h8BVOMyCpHrhejufpyvF5vdQBdJpCoVT0.js line 1 > Function line 3 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/521PoRGnh7h8BVOMyCpHrhejufpyvF5vdQBdJpCoVT0.js line 1 > Function line 3 > eval line 1 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/521PoRGnh7h8BVOMyCpHrhejufpyvF5vdQBdJpCoVT0.js line 1 > Function line 3 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript error: https://assets.kurashiru.com/production/packs/commons-ef88d55ea2decd2b7c56.js?from_ssr=true, line 84: RequestAbortedError: Request aborted
+JavaScript warning: https://pagead2.googlesyndication.com/bg/521PoRGnh7h8BVOMyCpHrhejufpyvF5vdQBdJpCoVT0.js line 1 > Function line 3 > eval line 1 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/521PoRGnh7h8BVOMyCpHrhejufpyvF5vdQBdJpCoVT0.js line 1 > Function line 3 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+NFO	Running command: "C:\\Users\\ricky\\AppData\\Local\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\ricky\\AppData\\Local\\Temp\\rust_mozprofileBu8PX2"
+*** You are running in headless mode.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1597818090626	Marionette	INFO	Listening on port 53298
+1597818090968	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://gum.criteo.com/sync?c=46&r=2&j=handleData, line 1: SecurityError: The operation is insecure.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/521PoRGnh7h8BVOMyCpHrhejufpyvF5vdQBdJpCoVT0.js line 1 > Function line 3 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/521PoRGnh7h8BVOMyCpHrhejufpyvF5vdQBdJpCoVT0.js line 1 > Function line 3 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript error: https://assets.kurashiru.com/production/packs/commons-ef88d55ea2decd2b7c56.js?from_ssr=true, line 84: RequestAbortedError: Request aborted
+JavaScript warning: https://pagead2.googlesyndication.com/bg/521PoRGnh7h8BVOMyCpHrhejufpyvF5vdQBdJpCoVT0.js line 1 > Function line 3 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/521PoRGnh7h8BVOMyCpHrhejufpyvF5vdQBdJpCoVT0.js line 1 > Function line 3 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/521PoRGnh7h8BVOMyCpHrhejufpyvF5vdQBdJpCoVT0.js line 1 > Function line 3 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/521PoRGnh7h8BVOMyCpHrhejufpyvF5vdQBdJpCoVT0.js line 1 > Function line 3 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+Exiting due to channel error.
+Listening on 127.0.0.1:53534
+1597818143951	mozrunner::runner	INFO	Running command: "C:\\Users\\ricky\\AppData\\Local\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\ricky\\AppData\\Local\\Temp\\rust_mozprofilewxcPAT"
+*** You are running in headless mode.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1597818145158	Marionette	INFO	Listening on port 53544
+1597818145462	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://gum.criteo.com/sync?c=46&r=2&j=handleData, line 1: SecurityError: The operation is insecure.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/521PoRGnh7h8BVOMyCpHrhejufpyvF5vdQBdJpCoVT0.js line 1 > Function line 3 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/521PoRGnh7h8BVOMyCpHrhejufpyvF5vdQBdJpCoVT0.js line 1 > Function line 3 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript error: https://assets.kurashiru.com/production/packs/commons-ef88d55ea2decd2b7c56.js?from_ssr=true, line 84: RequestAbortedError: Request aborted
+JavaScript warning: https://pagead2.googlesyndication.com/bg/521PoRGnh7h8BVOMyCpHrhejufpyvF5vdQBdJpCoVT0.js line 1 > Function line 3 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/521PoRGnh7h8BVOMyCpHrhejufpyvF5vdQBdJpCoVT0.js line 1 > Function line 3 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+NFO	Running command: "C:\\Users\\ricky\\AppData\\Local\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\ricky\\AppData\\Local\\Temp\\rust_mozprofileEixHIf"
+*** You are running in headless mode.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1597819433747	Marionette	INFO	Listening on port 54285
+1597819433967	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://gum.criteo.com/sync?c=46&r=2&j=han1597819438555	mozrunner::runner	INFO	Running command: "C:\\Users\\ricky\\AppData\\Local\\Mozilla Firefox\\firefox.exe" "1597819440965	mozrunner::runner	INFO	Running command: "C:\\Users\\ricky\\AppData\\Local\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\ricky\\AppData\\Local\\Temp\\rust_mozprofile1Zz2cU"
+*** You are running in headless mode.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1597819442533	MarionetJavaScript warning: https://pagead2.googlesyndication.com/bg/521PoRGnh7h8BVOMyCpHrhejuExiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+g/521PoRGnh7h8BVOMyCpHrhejufpyvF5vdQBdJpCoVT0.js line 1 > Function line 3 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/521PoRGnh7h8BVOMyCpHrhejufpyvF5vdQBdJpCoVT0.js line 1 > Function line 3 > eval, line 1: FaJavaScript error: https://assets.kurashiru.com/production/packs/commons-ef88d55ea2decd2b7c56.js?from_ssr=true, line 84: JavaScript error: https://assets.kurasExiting due to channel error.
+ns-ef88d55ea2decd2b7c56.js?from_ssr=true, line 84: RequestAbortedError: Request aborted
+Exiting due to channel error.
+Exiting due to channel error.
+oVT0.js line 1 > Function line 3 > eval line 1 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/521PoRGnh7h8BVOMyCpHrhejufpyvF5vdQBdJpCoVT0.js line 1 > Function line 3 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* CanJavaScript error: https://6296612b390b1af07f113ba8989c8251.sJavaScript error: https://assets.kurashiru.com/production/packs/commons-ef88d55ea2decd2b7c56.js?from_ssr=true, line 84: RequestAbortedError: Request aborted
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+ine 8: TypeError: _.y is not a function
+JavaScript error: https://6296612b390b1af07f113ba8989c8251.safeframe.googlesyndication.com/safeframe/1-0-37/html/container.html, line 8: ReferenceError: buildRichmediaAd is not defined
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: https://assets.kurashiru.com/production/packs/commons-ef88d55ea2decd2b7c56.js?from_ssr=true, line 84: RequestAbortedError: Request aborted
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+NFO	Running command: "C:\\Users\\ricky\\AppData\\Local\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\ricky\\AppData\\Local\\Temp\\rust_mozprofilepyLUu7"
+*** You are running in headless mode.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1597819541963	Marionette	INFO	Listening on port 55287
+1597819542325	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://gum.criteo.com/sync?c=46&r=2&j=handleData, line 1: SecurityError: The operation is insecure.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/521PoRGnh7h8BVOMyCpHrhejufpyvF5vdQBdJpCoVT0.js line 1 > Function line 3 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/521PoRGnh7h8BVOMyCpHrhejufpyvF5vdQBdJpCoVT0.js line 1 > Function line 3 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript error: https://1590bc5db19a0d13080327b5d7f5b2ff.safeframe.googlesyndication.com/safeframe/1-0-37/html/container.html, line 8: ReferenceError: buildAdSlot is not defined
+JavaScript error: https://1590bc5db19a0d13080327b5d7f5b2ff.safeframe.googlesyndication.com/safeframe/1-0-37/html/container.html, line 8: TypeError: _.y is not a function
+JavaScript error: https://1590bc5db19a0d13080327b5d7f5b2ff.safeframe.googlesyndication.com/safeframe/1-0-37/html/container.html, line 8: ReferenceError: buildRichmediaAd is not defined
+JavaScript error: https://1590bc5db19a0d13080327b5d7f5b2ff.safeframe.googlesyndication.com/safeframe/1-0-37/html/container.html, line 8: ReferenceError: buildAdSlot is not defined
+JavaScript error: https://1590bc5db19a0d13080327b5d7f5b2ff.safeframe.googlesyndication.com/safeframe/1-0-37/html/container.html, line 8: TypeError: _.y is not a function
+JavaScript error: https://1590bc5db19a0d13080327b5d7f5b2ff.safeframe.googlesyndication.com/safeframe/1-0-37/html/container.html, line 8: ReferenceError: buildRichmediaAd is not defined
+JavaScript error: https://assets.kurashiru.com/production/packs/commons-ef88d55ea2decd2b7c56.js?from_ssr=true, line 84: RequestAbortedError: Request aborted
+JavaScript error: https://tpc.googlesyndication.com/pagead/js/r20200817/r20110914/client/qs_click_protection_fy2019.js, line 14: NS_ERROR_NOT_INITIALIZED: 
+1597819574150	geckodriver	INFO	Listening on 127.0.0.1:55495
+1597819577155	mozrunner::runner	INFO	Running command: "C:\\Users\\ricky\\AppData\\Local\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\ricky\\AppData\\Local\\Temp\\rust_mozprofile8snO2b"
+*** You are running in headless mode.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1597819578344	Marionette	INFO	Listening on port 55504
+1597819578668	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://gum.criteo.com/sync?c=46&r=2&j=handleData, line 1: SecurityError: The operation is insecure.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/521PoRGnh7h8BVOMyCpHrhejufpyvF5vdQBdJpCoVT0.js line 1 > Function line 3 > eval line 1 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/521PoRGnh7h8BVOMyCpHrhejufpyvF5vdQBdJpCoVT0.js line 1 > Function line 3 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript error: https://assets.kurashiru.com/production/packs/commons-ef88d55ea2decd2b7c56.js?from_ssr=true, line 84: RequestAbortedError: Request aborted
+JavaScript error: https://gum.criteo.com/sync?c=46&r=2&j=handleData, line 1: SecurityError: The operation is insecure.
+JavaScript error: https://gum.criteo.com/sync?c=46&r=2&j=handleData, line 1: SecurityError: The operation is insecure.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/521PoRGnh7h8BVOMyCpHrhejufpyvF5vdQBdJpCoVT0.js line 1 > Function line 3 > eval line 1 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/521PoRGnh7h8BVOMyCpHrhejufpyvF5vdQBdJpCoVT0.js line 1 > Function line 3 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+NFO	Running command: "C:\\Users\\ricky\\AppData\\Local\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\ricky\\AppData\\Local\\Temp\\rust_mozprofile1D5j8h"
+*** You are running in headless mode.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1597819661380	Marionette	INFO	Listening on port 55783
+1597819661595	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://gum.criteo.com/sync?c=46&r=2&j=handleData, line 1: SecurityError: The operation is insecure.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/521PoRGnh7h8BVOMyCpHrhejufpyvF5vdQBdJpCoVT0.js line 1 > Function line 3 > eval line 1 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/521PoRGnh7h8BVOMyCpHrhejufpyvF5vdQBdJpCoVT0.js line 1 > Function line 3 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript error: https://gum.criteo.com/sync?c=46&r=2&j=handleData, line 1: SecurityError: The operation is insecure.
+JavaScript error: https://gum.criteo.com/sync?c=46&r=2&j=handleData, line 1: SecurityError: The operation is insecure.
+JavaScript error: https://assets.kurashiru.com/production/packs/commons-ef88d55ea2decd2b7c56.js?from_ssr=true, line 84: RequestAbortedError: Request aborted
+JavaScript warning: https://pagead2.googlesyndication.com/bg/521PoRGnh7h8BVOMyCpHrhejufpyvF5vdQBdJpCoVT0.js line 1 > Function line 3 > eval line 1 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/521PoRGnh7h8BVOMyCpHrhejufpyvF5vdQBdJpCoVT0.js line 1 > Function line 3 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript error: https://gum.criteo.com/sync?c=46&r=2&j=handleData, line 1: SecurityError: The operation is insecure.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/521PoRGnh7h8BVOMyCpHrhejufpyvF5vdQBdJpCoVT0.js line 1 > Function line 3 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/521PoRGnh7h8BVOMyCpHrhejufpyvF5vdQBdJpCoVT0.js line 1 > Function line 3 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+NFO	Running command: "C:\\U1597819782738	mozrunner::runner	INFO	Running command: "C:\\Users\\ricky\\AppData\\Local\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\ricky\\AppData\\Local\\Temp\\ruJavaScript error: resource://gre/modules/XULStore.jsm, line JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Erro1597819783809	Marionette	INFO	Listening on port 56120
+159781597819784102	Marionette	INFO	Listening on port 56126
+1597819784249	Marionette	WAJavaScript warning: https://pagead2.googlesyndication.com/bg/521PoRGnh7h8BVOMyCpHrhejufpyvF5vdQBdJpCoVT0.js line 1 > Function line 3 > eval, line 1: WebGL warning: <Create>: Can't JavaScript warning: https://pagead2.googlesyndication.com/bg/521PoRGnh7h8BVOMyCpHrhejufpyvF5vdQBdJpCoVT0.js line 1 > Function line 3 > eval line 1 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/521PoRGnh7h8BVOMJavaScript error: https://assets.kurashiru.com/production/packs/commons-ef88d55ea2decd2b7c56.js?from_ssr=true, line 84: RequestAbortedError: Request aborted
+JavaScript error: https://cdn.ampproject.org/rtv/0JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: https://assets.kurashiru.com/production/packs/commons-ef88d55ea2decd2b7c56.js?from_ssr=true, line 84: RequestAbortedError: RequesJavaScript error: https://gum.criteo.com/sync?c=46&r=2&j=handleData, line 1: SecurityError: The operation is insecure.
+JavaScript error: https://gum.criteo.com/sync?c=JavaScript error: https://gum.criteo.com/sync?c=46&r=2&j=handleData, linJavaScript warning: https://pagead2.googlesyndication.com/bg/521PoRGnh7h8BVOMyCpHrhejufpyvF5vdQBdJpCoVT0.js line 1 > Function line 3 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warninJavaScript warning: https://pagead2.googlesyndication.com/bg/521PoRGnh7h8BVOMyCpHrhejufpyvF5vdQBdJpCoVT0.js line 1 > Function line 3 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warninExiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+ne 1 > Function line 3 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript error: https://assets.kurashiru.com/production/packs/commons-ef88d55ea2decd2b7c56.js?from_ssr=true, line 84: RequestAbortedError: Request aborted
+JavaScript warning: https://pagead2.googlesyndication.com/bg/521PoRGnh7h8BVOMyCpHrhejufpyvF5vdQBdJpCoVT0.js line 1 > Function line 3 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/521PoRGnh7h8BVOMyCpHrhejufpyvF5vdQBdJpCoVT0.js line 1 > Function line 3 > eval, line 1: Failed to create WebGL context: WebGL creation failed:Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+[GFX1-]: Receive IPC closer=2&j=handleData, line 1: SecurityError: The operation is insecure.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/521PoRGnh7h8BVOMyCpHrhejufpyvF5vdQBdJpCoVT0.js line 1 > Function line 3 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/521PoRGnh7h8BVOMyCpHrhejufpyvF5vdQBdJpCoVT0.js line 1 > Function line 3 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+Exiting due to channel error.
+Listening on 127.0.0.1:56907
+1597819998082	mozrunner::runner	INFO	Running command: "C:\\Users\\ricky\\AppData\\Local\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\ricky\\AppData\\Local\\Temp\\rust_mozprofileMKhbvB"
+*** You are running in headless mode.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1597819999346	Marionette	INFO	Listening on port 56915
+1597819999593	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://gum.criteo.com/sync?c=46&r=2&j=handleData, line 1: SecurityError: The operation is insecure.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/521PoRGnh7h8BVOMyCpHrhejufpyvF5vdQBdJpCoVT0.js line 1 > Function line 3 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/521PoRGnh7h8BVOMyCpHrhejufpyvF5vdQBdJpCoVT0.js line 1 > Function line 3 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript error: https://assets.kurashiru.com/production/packs/commons-ef88d55ea2decd2b7c56.js?from_ssr=true, line 84: RequestAbortedError: Request aborted
+JavaScript warning: https://pagead2.googlesyndication.com/bg/521PoRGnh7h8BVOMyCpHrhejufpyvF5vdQBdJpCoVT0.js line 1 > Function line 3 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/521PoRGnh7h8BVOMyCpHrhejufpyvF5vdQBdJpCoVT0.js line 1 > Function line 3 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript error: https://cdn.ampproject.org/rtv/012008102328000/v0/amp-analytics-0.1.js, line 115: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://cdn.ampproject.org/rtv/012008102328000/v0/amp-analytics-0.1.js, line 115: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://gum.criteo.com/sync?c=46&r=2&j=handleData, line 1: SecurityError: The operation is insecure.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/521PoRGnh7h8BVOMyCpHrhejufpyvF5vdQBdJpCoVT0.js line 1 > Function line 3 > eval line 1 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/521PoRGnh7h8BVOMyCpHrhejufpyvF5vdQBdJpCoVT0.js line 1 > Function line 3 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+NFO	Running command: "C:\\Users\\ricky\\AppData\\Local\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\ricky\\AppData\\Local\\Temp\\rust_mozprofile4UVrcW"
+*** You are running in headless mode.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1597820125514	Marionette	INFO	Listening on port 57245
+1597820125659	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://gum.criteo.com/sync?c=46&r=2&j=handleData, line 1: SecurityError: The operation is insecure.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/521PoRGnh7h8BVOMyCpHrhejufpyvF5vdQBdJpCoVT0.js line 1 > Function line 3 > eval line 1 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/521PoRGnh7h8BVOMyCpHrhejufpyvF5vdQBdJpCoVT0.js line 1 > Function line 3 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript error: https://assets.kurashiru.com/production/packs/commons-ef88d55ea2decd2b7c56.js?from_ssr=true, line 84: RequestAbortedError: Request aborted
+JavaScript error: https://gum.criteo.com/sync?c=46&r=2&j=handleData, line 1: SecurityError: The operation is insecure.
+JavaScript error: https://gum.criteo.com/sync?c=46&r=2&j=handleData, line 1: SecurityError: The operation is insecure.
+JavaScript error: https://gum.criteo.com/sync?c=46&r=2&j=handleData, line 1: SecurityError: The operation is insecure.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/521PoRGnh7h8BVOMyCpHrhejufpyvF5vdQBdJpCoVT0.js line 1 > Function line 3 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/521PoRGnh7h8BVOMyCpHrhejufpyvF5vdQBdJpCoVT0.js line 1 > Function line 3 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+NFO	Running command: "C:\\U1597820174530	mozrunner::runner	INFO	Running command: "C:\\Users\\ricky\\AppData\\Local\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\ricky\\AppData\\Local\\Temp\\ruJavaScript error: resource://gre/modules/XULStore.jsm, line JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Erro1597820175801	Marionette	INFO	Listening on port 57561
+159781597820175993	Marionette	INFO	Listening on port 57567
+1597820176041	Marionette	WAJavaScript error: https://gum.criteo.com/sync?c=46&r=2&j=hanJavaScript error: https://gum.criteo.com/sync?c=46&r=2&j=hanJavaScript warning: https://pagead2.googlesyndication.com/bgJavaScript warning: https://pagead2.googlesyndication.com/bg/521PoRGnh7h8BVOMyCpHrhejufpyvF5vdQBdJpCoVT0.js line 1 > Function line 3 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/521PoRGnh7h8BVOMyCpHrhejufpyvF5vdQBdJpCoVT0.js line 1 > Function line 3 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* CanJavaScript error: https://assets.kurashiru.com/production/paJavaScript error: https://assets.kurashiru.com/production/packs/commons-ef88d55ea2decd2b7c56.js?from_ssr=true, line 84: RequestAbortedError: Request aborted
+JavaScript error: https://cdn.ampproject.org/rtv/012008102328000/v0/amp-analytics-0.1.js, line 115: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://tpc.googlesyndication.com/pagead/js/r20200JavaScript error: https://gum.criteo.com/sync?c=46&r=2&j=handleData, line 1: SecurityErroJavaScript error: https://gum.criteo.com/sync?c=46&r=2&j=handleData, line 1: SecurityError: The operation is insecure.
+JavaScript error: https://gum.criteo.com/sync?c=46&r=2&j=handleData, line 1: SecurityError: The operation is insecure.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/521PoRGnh7h8BVOMyCpHrhejufpyvF5vdQBdJpCoVT0.js line 1 > Function line 3 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/521PoRGnh7h8BVOMyCpHrhejufpyvF5vdQBdJpCoVT0.js line 1 > Function line 3 > eval, line 1: Failed to create WebGL context: W[GFX1-]: Receive IPC close with reason=AbnormExiting due to channel error.
+Exiting due to channel error.
+nnel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
