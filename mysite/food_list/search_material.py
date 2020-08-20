@@ -3,7 +3,6 @@ from selenium import webdriver
 from selenium.webdriver.firefox.options import Options
 from selenium.webdriver.common.keys import Keys
 import time
-from . import create_table
 
 def selenium_function(food_name):
     url = "https://www.kurashiru.com/"
@@ -28,6 +27,4 @@ def selenium_function(food_name):
     for i in range(len(materials)):
         material_list.append(materials[i].text.splitlines())
 
-    food_info = create_table.insert_colum(food_name, material_list)
-
-    return food_info
+    return material_list
