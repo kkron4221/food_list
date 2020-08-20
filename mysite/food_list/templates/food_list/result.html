@@ -1,7 +1,13 @@
 <h1>{{ days }}日間に必要な材料</h1>
 
 <h2>食糧</h2>
-{{ food_names }}
+{% for food_name in food_names %}
+    {{ food_name }}<br>
+{% endfor %}
+
+{% for food_url in food_urls %}
+    <a href="{{ food_url }}">food_url</a>
+{% endfor %}
 
 <h2>必要な材料</h2>
 {{ materials }}

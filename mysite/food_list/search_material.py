@@ -23,8 +23,10 @@ def selenium_function(food_name):
     time.sleep(2)
 
     materials = driver.find_elements_by_class_name("ingredient-list-item")
+    food_url = driver.current_url
     material_list = []
     for i in range(len(materials)):
         material_list.append(materials[i].text.splitlines())
 
-    return material_list
+
+    return material_list, food_url
