@@ -21,7 +21,7 @@ def results(request):
     food_selenium = search_material.selenium_function(food_name)
     material_list = food_selenium[0]
     menu_url = food_selenium[1]
-    materials_list.append(material_list[0])
+    materials_list.append(material_list)
     url_list.append(menu_url)
     create_table.insert_colum(food_name, material_list)
     days = i

@@ -6,8 +6,10 @@
 {% endfor %}
 
 {% for food_url in food_urls %}
-    <a href="{{ food_url }}">food_url</a>
+    <a href="{{ food_url }}">food_url</a><br>
 {% endfor %}
 
 <h2>必要な材料</h2>
-{{ materials }}
+{% for material in materials %}
+    {{ material }}
+{% endfor %}
