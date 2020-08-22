@@ -26,6 +26,8 @@ def results(request):
     create_table.insert_colum(food_name, material_list)
     days = i
 
+  
+
   params = {
     'days' : days,
     'food_names' : foods_list,

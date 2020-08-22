@@ -27,6 +27,8 @@ def selenium_function(food_name):
     material_list = []
     for i in range(len(materials)):
         material_list.append(materials[i].text.splitlines())
+    
 
+    
 
     return material_list, food_url
