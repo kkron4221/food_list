@@ -28,10 +28,10 @@ def results(request):
     days = i
 
   allfoods = FoodInfo.objects.all()
-  sorted_foods_material = sorted(allfoods, key=lambda food:food.material)  
+  sorted_foods_material = sorted(allfoods, key=lambda FoodInfo:FoodInfo.material)  
 
   context = {'allfoods':allfoods,
-            'sorted_food_material':sorted_foods_material,
+            'sorted_foods_material':sorted_foods_material,
             'days':days,
             'url_list':url_list
             }

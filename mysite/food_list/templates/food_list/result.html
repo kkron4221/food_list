@@ -19,14 +19,14 @@
 </table>
 
 <h1>Sorted FoodInfo table</h1>
-<tabel border="1">
+<table border="1">
     <tr>
         <td>FoodName</td>
         <td>Material</td>
         <td>Amount</td>
         <td>Unit</td>
     </tr>
-    {% for food_info in sorted_food_material %}
+    {% for food_info in sorted_foods_material %}
     <tr>
         <td>{{ food_info.food_name }}</td>
         <td>{{ food_info.material }}</td>
@@ -34,4 +34,4 @@
         <td>{{ food_info.unit }}</td>
     </tr>
     {% endfor %}
-</tabel>
+</table>
