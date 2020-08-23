@@ -1,15 +1,37 @@
-<h1>{{ days }}日間に必要な材料</h1>
+<h1>{{ days }}日の食料</h1>
 
-<h2>食糧</h2>
-{% for food_name in food_names %}
-    {{ food_name }}<br>
-{% endfor %}
+<h1>Unsorted Toy table</h1>
+<table border="1">
+    <tr>
+        <td>FoodName</td>
+        <td>Material</td>
+        <td>Amount</td>
+        <td>Unit</td>
+    </tr>
+    {% for foods in allfoods %}
+    <tr>
+        <td>{{ foods.food_name }}</td>
+        <td>{{ foods.material }}</td>
+        <td>{{ foods.amount }}</td>
+        <td>{{ foods.unit }}</td>
+    </tr>
+    {% endfor %}
+</table>
 
-{% for food_url in food_urls %}
-    <a href="{{ food_url }}">food_url</a><br>
-{% endfor %}
-
-<h2>必要な材料</h2>
-{% for material in materials %}
-    {{ material }}
-{% endfor %}
+<h1>Sorted FoodInfo table</h1>
+<tabel border="1">
+    <tr>
+        <td>FoodName</td>
+        <td>Material</td>
+        <td>Amount</td>
+        <td>Unit</td>
+    </tr>
+    {% for food_info in sorted_food_material %}
+    <tr>
+        <td>{{ food_info.food_name }}</td>
+        <td>{{ food_info.material }}</td>
+        <td>{{ food_info.amount }}</td>
+        <td>{{ food_info.unit }}</td>
+    </tr>
+    {% endfor %}
+</tabel>

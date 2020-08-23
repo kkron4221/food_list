@@ -1,5 +1,6 @@
 from django.http import HttpResponse
 from django.shortcuts import render
+from .models import FoodInfo
 from . import search_material
 from . import create_table
 
@@ -26,16 +27,15 @@ def results(request):
     create_table.insert_colum(food_name, material_list)
     days = i
 
-  
+  allfoods = FoodInfo.objects.all()
+  sorted_foods_material = sorted(allfoods, key=lambda food:food.material)  
 
-  params = {
-    'days' : days,
-    'food_names' : foods_list,
-    'food_urls' : url_list,
-    'materials' : materials_list,
-  }
+  context = {'allfoods':allfoods,
+            'sorted_food_material':sorted_foods_material,
+            'days':days,
+            'url_list':url_list
+            }
 
 
 
-  return render(request, 'food_list/result.html', params)
-  
+  return render(request, 'food_list/result.html', context)
