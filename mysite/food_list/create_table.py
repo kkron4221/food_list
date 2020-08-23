@@ -1,8 +1,21 @@
 from food_list.models import FoodInfo
+import re
+
+num_re = '//D'
 
 def insert_colum(food_name, material_list):
     for i in range(len(material_list)):
-        table_row = FoodInfo.objects.create(food_name=food_name, material=material_list[i][0], amount=1, unit="hogehoge")
-    table_row.save()
+        try:
+            material_list[i][1]  = str(material_list[i][1])
+            amount = re.sub('\\D', "", material_list[i][1])
+            unit = re.sub('[0-9０-９]+', "", material_list[i][1])
+        except:
+            ValueError
+            break
+        try:
+            table_row = FoodInfo.objects.create(food_name=food_name, material=material_list[i][0], amount=amount, unit=unit)
+            table_row.save()
+        except:
+            ValueError
     
     return material_list
