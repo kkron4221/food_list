@@ -14,6 +14,7 @@ def selenium_function(food_name):
     driver.get(url)
     time.sleep(2)
     search_box = driver.find_element_by_id("query")
+
     search_box.send_keys(food_name)
     search_box.send_keys(Keys.ENTER)
     time.sleep(2)

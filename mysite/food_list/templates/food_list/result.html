@@ -1,23 +1,4 @@
 <h1>{{ days }}日の食料</h1>
-
-<h1>Unsorted Toy table</h1>
-<table border="1">
-    <tr>
-        <td>FoodName</td>
-        <td>Material</td>
-        <td>Amount</td>
-        <td>Unit</td>
-    </tr>
-    {% for foods in allfoods %}
-    <tr>
-        <td>{{ foods.food_name }}</td>
-        <td>{{ foods.material }}</td>
-        <td>{{ foods.amount }}</td>
-        <td>{{ foods.unit }}</td>
-    </tr>
-    {% endfor %}
-</table>
-
 <h1>Sorted FoodInfo table</h1>
 <table border="1">
     <tr>

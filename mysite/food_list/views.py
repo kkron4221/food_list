@@ -8,10 +8,11 @@ def index(request):
   return HttpResponse(render(request, 'food_list/index.html'))
   
 def results(request):
+  FoodInfo.objects.all().delete()
   foods_list = []
   materials_list = []
   url_list = []
- 
+
   for i in range(10):
     i = i + 1
     search_food = "search" + str(i) 
@@ -33,7 +34,7 @@ def results(request):
   context = {'allfoods':allfoods,
             'sorted_foods_material':sorted_foods_material,
             'days':days,
-            'url_list':url_list
+            'url_list':url_list,
             }
 
 

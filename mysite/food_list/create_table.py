@@ -1,7 +1,7 @@
 from food_list.models import FoodInfo
 import re
 
-num_re = '//D'
+# TOOD:delete table colum
 
 def insert_colum(food_name, material_list):
     for i in range(len(material_list)):
@@ -17,5 +17,7 @@ def insert_colum(food_name, material_list):
             table_row.save()
         except:
             ValueError
+
+# TODO:sort and add table colum
     
     return material_list
