@@ -20,7 +20,7 @@ def selenium_function(food_name):
     time.sleep(2)
 
     items = driver.find_elements_by_class_name("dly-video-item-root")
-    items[1].click()
+    items[0].click()
     time.sleep(2)
 
     materials = driver.find_elements_by_class_name("ingredient-list-item")

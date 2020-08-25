@@ -1,11 +1,12 @@
-import sqlite3
-from food_list.models import FoodInfo
+import re
 
-food_name = "寿司"
-material_list = ["白米", "刺身", "山葵"]
+food_list = [['ごはん', '200g'], ['レトルトカレー (200g)', '1パック'], ['卵', '1個'], ['ピザ用チーズ', '大さじ2'], ['パン粉', '大さじ1'], ['マヨネーズ', '大さじ1'], ['パセリ (乾燥)', '適量']]
 
-for i in range(len(material_list)):
-    table_row = FoodInfo.objects.create(food_name=food_name, material=material_list[i][0], amount=1, unit="hogehoge")
-table_row.save()
+# 200g
+text = food_list[0][1]
 
-FoodInfo.objects.filter(food_name).order_by()
+text2 = "おおさじ1"
+
+result = re.sub(r"\d", "", text2)
+
+print(result)
