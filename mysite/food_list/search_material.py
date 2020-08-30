@@ -6,7 +6,7 @@ import time
 
 def selenium_function(food_name):
     url = "https://www.kurashiru.com/"
-
+    material_info = [] 
     options = Options()
     options.add_argument("-headless")
 
@@ -19,17 +19,22 @@ def selenium_function(food_name):
     search_box.send_keys(Keys.ENTER)
     time.sleep(2)
 
+    img = driver.find_elements_by_tag_name("img")
+    target_img = img[0]
+    time.sleep(1)
+
     items = driver.find_elements_by_class_name("dly-video-item-root")
-    items[1].click()
+    items[0].click()
     time.sleep(2)
 
     materials = driver.find_elements_by_class_name("ingredient-list-item")
+    # materials.append(target_img)
     food_url = driver.current_url
     material_list = []
     for i in range(len(materials)):
-        material_list.append(materials[i].text.splitlines())
-    
-
-    
+        material_info = materials[i].text.splitlines()
+        if len(material_info) < 2:
+            continue
+        material_list.append(material_info)
 
     return material_list, food_url

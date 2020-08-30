@@ -1,15 +1,22 @@
 <h1>{{ days }}日の食料</h1>
-<h1>Sorted FoodInfo table</h1>
+
+<h3>メニュー</h3>
+{% for food_name in foods_list %}
+    {{ food_name }}<br>
+{% endfor %}
+
+<a href="% url '{{ url_list }}' %">URL</a>
+
+
 <table border="1">
     <tr>
-        <td>FoodName</td>
         <td>Material</td>
         <td>Amount</td>
         <td>Unit</td>
     </tr>
-    {% for food_info in sorted_foods_material %}
+
+    {% for food_info in result_info %}
     <tr>
-        <td>{{ food_info.food_name }}</td>
         <td>{{ food_info.material }}</td>
         <td>{{ food_info.amount }}</td>
         <td>{{ food_info.unit }}</td>

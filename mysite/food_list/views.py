@@ -3,6 +3,7 @@ from django.shortcuts import render
 from .models import FoodInfo
 from . import search_material
 from . import create_table
+from django.db.models import Sum
 
 def index(request):
   return HttpResponse(render(request, 'food_list/index.html'))
@@ -28,15 +29,13 @@ def results(request):
     create_table.insert_colum(food_name, material_list)
     days = i
 
-  allfoods = FoodInfo.objects.all()
-  sorted_foods_material = sorted(allfoods, key=lambda FoodInfo:FoodInfo.material)  
+  result_info = FoodInfo.objects.values('material', 'unit').order_by('material').annotate(amount=Sum('amount'))
 
-  context = {'allfoods':allfoods,
-            'sorted_foods_material':sorted_foods_material,
+  context = {
+            'result_info':result_info,
+            'foods_list':foods_list,
             'days':days,
             'url_list':url_list,
             }
-
-
 
   return render(request, 'food_list/result.html', context)
