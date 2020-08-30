@@ -4884,3 +4884,19 @@ JavaScript warning: https://pagead2.googlesyndication.com/bg/w3uW36kZ3iEz52fjwmS
 JavaScript warning: https://pagead2.googlesyndication.com/bg/w3uW36kZ3iEz52fjwmSMTfWAeiBMgQCjgDc5TerGjFY.js line 1 > eval line 4649 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
 * Can't use WebGL in headless mode (https://bugzil.la/1375585).
 1598750377168	geckodriver	INFO	Listening on 127.0.0.1:56796
+1598750380172	mozrunner::runner	INFO	Running command: "C:\\Users\\ricky\\AppData\\Local\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\ricky\\AppData\\Local\\Temp\\rust_mozprofileYluf6u"
+*** You are running in headless mode.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1598750385199	Marionette	INFO	Listening on port 56809
+1598750385421	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://pagead2.googlesyndication.com/bg/w3uW36kZ3iEz52fjwmSMTfWAeiBMgQCjgDc5TerGjFY.js line 1 > eval line 7127 > eval line 1 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/w3uW36kZ3iEz52fjwmSMTfWAeiBMgQCjgDc5TerGjFY.js line 1 > eval line 7127 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript error: https://assets.kurashiru.com/production/packs/commons-5c66692aa423768791d3.js?from_ssr=true, line 84: CredentialsError: Missing credentials in config
+JavaScript error: https://assets.kurashiru.com/production/packs/commons-5c66692aa423768791d3.js?from_ssr=true, line 84: CredentialsError: Missing credentials in config
+JavaScript error: https://assets.kurashiru.com/production/packs/commons-5c66692aa423768791d3.js?from_ssr=true, line 84: CredentialsError: Missing credentials in config
+JavaScript error: https://assets.kurashiru.com/production/packs/commons-5c66692aa423768791d3.js?from_ssr=true, line 84: CredentialsError: Missing credentials in config
+JavaScript warning: https://pagead2.googlesyndication.com/bg/w3uW36kZ3iEz52fjwmSMTfWAeiBMgQCjgDc5TerGjFY.js line 1 > eval line 1869 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/w3uW36kZ3iEz52fjwmSMTfWAeiBMgQCjgDc5TerGjFY.js line 1 > eval line 1869 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
