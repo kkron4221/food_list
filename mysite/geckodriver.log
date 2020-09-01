@@ -4900,3 +4900,22 @@ JavaScript error: https://assets.kurashiru.com/production/packs/commons-5c66692a
 JavaScript warning: https://pagead2.googlesyndication.com/bg/w3uW36kZ3iEz52fjwmSMTfWAeiBMgQCjgDc5TerGjFY.js line 1 > eval line 1869 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
 JavaScript warning: https://pagead2.googlesyndication.com/bg/w3uW36kZ3iEz52fjwmSMTfWAeiBMgQCjgDc5TerGjFY.js line 1 > eval line 1869 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
 * Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1598960828251	geckodriver	INFO	Listening on 127.0.0.1:49657
+1598960831266	mozrunner::runner	INFO	Running command: "C:\\Users\\ricky\\AppData\\Local\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\ricky\\AppData\\Local\\Temp\\rust_mozprofileUzKvw0"
+*** You are running in headless mode.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1598960832629	Marionette	INFO	Listening on port 49778
+1598960832778	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://pagead2.googlesyndication.com/bg/w3uW36kZ3iEz52fjwmSMTfWAeiBMgQCjgDc5TerGjFY.js line 1 > eval line 2258 > eval line 1 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/w3uW36kZ3iEz52fjwmSMTfWAeiBMgQCjgDc5TerGjFY.js line 1 > eval line 2258 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/w3uW36kZ3iEz52fjwmSMTfWAeiBMgQCjgDc5TerGjFY.js line 1 > eval line 1469 > eval line 1 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/w3uW36kZ3iEz52fjwmSMTfWAeiBMgQCjgDc5TerGjFY.js line 1 > eval line 1469 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript error: https://assets.kurashiru.com/production/packs/commons-5c66692aa423768791d3.js?from_ssr=true, line 84: RequestAbortedError: Request aborted
+JavaScript error: https://cdn.ampproject.org/rtv/012008242301000/v0/amp-analytics-0.1.js, line 133: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://cdn.ampproject.org/rtv/012008242301000/v0/amp-analytics-0.1.js, line 133: NS_ERROR_NOT_INITIALIZED: 
+JavaScript warning: https://pagead2.googlesyndication.com/bg/w3uW36kZ3iEz52fjwmSMTfWAeiBMgQCjgDc5TerGjFY.js line 1 > eval line 6952 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/w3uW36kZ3iEz52fjwmSMTfWAeiBMgQCjgDc5TerGjFY.js line 1 > eval line 6952 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
