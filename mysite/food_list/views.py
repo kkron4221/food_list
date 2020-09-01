@@ -31,6 +31,7 @@ def results(request):
   context = {
             'result_info':result_info,
             'foods_list':foods_list,
+            'url_list':foods_url,
             'days':days,
             }
   return render(request, 'food_list/result.html', context)
