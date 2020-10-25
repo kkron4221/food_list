@@ -7,7 +7,8 @@ from django.db.models import Sum
 
 def index(request):
   return HttpResponse(render(request, 'food_list/index.html'))
-  
+
+
 def results(request):
   FoodInfo.objects.all().delete()
   foods_list = []
@@ -24,6 +25,7 @@ def results(request):
     material_list = food_selenium[0]
     foods_url = food_selenium[1]
     create_table.insert_colum(food_name, material_list)
+    url_list.append(foods_url)
     days = i
 
   result_info = FoodInfo.objects.values('material', 'unit').order_by('material').annotate(amount=Sum('amount'))
@@ -31,7 +33,7 @@ def results(request):
   context = {
             'result_info':result_info,
             'foods_list':foods_list,
-            'url_list':foods_url,
+            'url_list':url_list,
             'days':days,
             }
   return render(request, 'food_list/result.html', context)

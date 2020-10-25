@@ -5,8 +5,11 @@
     {{ food_name }}<br>
 {% endfor %}
 
-<a href="% url '{{ url_list }}' %">URL</a>
-
+<h1 class="url_list">
+    {% for url in url_list %}
+        <a href= {{ url }}>food_url</a><br>
+    {% endfor %}
+</h1>
 
 <table border="1">
     <tr>
@@ -23,3 +26,5 @@
     </tr>
     {% endfor %}
 </table>
+
+<a href="{% url 'food_list:index' %}">back</a>
