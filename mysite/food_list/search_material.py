@@ -1,12 +1,14 @@
-from django.http import HttpResponse
+# from django.http import HttpResponse
 from selenium import webdriver
 from selenium.webdriver.firefox.options import Options
 from selenium.webdriver.common.keys import Keys
+from urllib import request
+from bs4 import BeautifulSoup
 import time
 
 def selenium_function(food_name):
     url = "https://www.kurashiru.com/"
-    material_info = [] 
+    material_list = []
     options = Options()
     options.add_argument("-headless")
 
@@ -19,22 +21,24 @@ def selenium_function(food_name):
     search_box.send_keys(Keys.ENTER)
     time.sleep(2)
 
-    img = driver.find_elements_by_tag_name("img")
-    target_img = img[0]
-    time.sleep(1)
-
     items = driver.find_elements_by_class_name("dly-video-item-root")
     items[0].click()
     time.sleep(2)
 
-    materials = driver.find_elements_by_class_name("ingredient-list-item")
-    # materials.append(target_img)
     food_url = driver.current_url
-    material_list = []
-    for i in range(len(materials)):
-        material_info = materials[i].text.splitlines()
-        if len(material_info) < 2:
+
+    html = request.urlopen(food_url)
+
+    soup = BeautifulSoup(html, "html.parser")
+
+    material_info = soup.find_all("li", class_="ingredient-list-item")
+
+    for i in material_info:
+        material = i.text
+        if " " in material:
+            material = material.split()
+        else:
             continue
-        material_list.append(material_info)
+        material_list.append(material)
 
     return material_list, food_url
